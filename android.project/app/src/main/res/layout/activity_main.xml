@@ -9,8 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.llk.demo.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_Hide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="NavigationBar Hide"
+        android:layout_above="@+id/btn_Display"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp" />
+
+    <Button
+        android:id="@+id/btn_Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NavigationBar Display"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="180dp" />
 </RelativeLayout>
